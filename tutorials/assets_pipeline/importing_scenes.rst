@@ -483,6 +483,12 @@ reliability.
     See :ref:`doc_collision_shapes_3d` for a comprehensive overview of collision
     shapes.
 
+Create Occlusion shapes (-occ, -occonly)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A mesh node with the ``-occ`` suffix will be imported as both A mesh and A :ref:`class-occluderinstance3d`.
+If the ``-occonly`` suffix is used instead, the original Mesh object will be removed at import-time.
+
 Create navigation (-navmesh)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
